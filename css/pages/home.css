@@ -12,13 +12,159 @@
 @import '../components/button.css';
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
+body {
+    background-color: #74C69D;
+}
 
+h1 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 500;
+}
 
-.brands *{
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.logo h1 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.header nav>a {
+    text-decoration: none;
+    margin: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.header nav>a:hover {
+    color: #FAAD3A;
+}
+
+.burger {
+    font-size: 24px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    gap: 25px;
+
+}
+
+h4 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 16px;
+}
+
+.hero p {
+    font-size: 15px;
+    opacity: 75%;
+}
+
+.hero .btn:hover {
+    background-color: #FAAD3A;
+}
+
+.brand {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
     justify-content: center;
-    background: #fff;
+    text-align: center;
+    gap: 35px;
+    padding: 30px 0;
+}
+
+.brand h4 {
+    color: #74C69D;
+}
+
+.brand h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.brand .btn {
+    background: #212529;
+    color: #fff;
+}
+
+.brand .btn:hover {
+    color: #FAAD3A;
+}
+
+.companies {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer * {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer>.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+/* .socials {
+    float: left;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */
+.socials a {
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.socials a:hover {
+    color: #5569AF;
+}
+
+/* .rights {
+    float: right;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */
+
+@media (max-width: 768px) {
+    .footer>.row {
+        flex-direction: column;
+    }
 }

@@ -4,9 +4,12 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
-    background-color: #74C69D;
 }
  
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg-white {
+    background-color: #fff;
 }

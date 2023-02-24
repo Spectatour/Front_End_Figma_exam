@@ -1,5 +1,5 @@
 .btn {
-    padding: 0.4em 1em;
+    padding: 0.4em 1.2em;
     text-decoration: none;
     font-size: 20px;
     line-height: 1em;
@@ -9,4 +9,5 @@
     border: none;
     border-radius: 5px;
     text-align: center;
+    text-transform: capitalize;
 }
